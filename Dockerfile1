@@ -47,4 +47,3 @@ COPY --from=busybox-min /etc/passwd /etc/passwd
 COPY --from=busybox-min /home/relayer /home/relayer
 
 WORKDIR /home/relayer
-USER relayer
