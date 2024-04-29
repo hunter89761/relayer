@@ -345,8 +345,6 @@ func (cc *CosmosProvider) updateNextAccountSequence(sequenceGuard *WalletState, 
 
 func (cc *CosmosProvider) setCometVersion(log *zap.Logger, version string) {
 	cc.cometLegacyEncoding = cc.legacyEncodedEvents(log, version)
-	//this is changed for celestia
-	cc.cometLegacyEncoding = true
 }
 
 func (cc *CosmosProvider) legacyEncodedEvents(log *zap.Logger, version string) bool {
