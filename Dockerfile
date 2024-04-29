@@ -48,6 +48,7 @@ RUN ln sh pwd && \
     ln sh ls && \
     ln sh cat && \
     ln sh less && \
+    ln sh cp && \
     ln sh grep && \
     ln sh sleep && \
     ln sh env && \
